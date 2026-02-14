@@ -1,0 +1,13 @@
+CSV File
+   ↓
+Snowflake Stage
+   ↓
+RAW Layer (SALES_RAW)
+   ↓
+Stream
+   ↓
+Task
+   ↓
+SILVER Layer (SALES_CLEAN)
+   ↓
+Gold View (SALES_GOLD)
